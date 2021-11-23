@@ -65,11 +65,14 @@ p {
 .heroMetas h2 {
     margin-top: 80px;
 }
+.navbar img {
+    height: auto;
+    width: 30%;
+}
 .navbar {
     background-color: white!important;
     font-size: 13px;
     font-weight: 700;
-    height: 80px!important;
 }
 .navbar a {
     color: #0C2D4E!important;
@@ -128,7 +131,7 @@ p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 500px;
+    height: auto;
     width: auto;
     display: flex;
     justify-content: center;
@@ -276,6 +279,11 @@ p {
     padding: 0;
     color: #0C2D4E;
 }
+.textoExito {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
 .textoExito h2 {
     height: auto;
     font-family: 'Poppins', sans-serif;
@@ -344,3 +352,97 @@ p {
 .btn-whatsapp:hover {
     opacity: 0.5;
 }
+.testImage {
+    margin: 0;
+    padding: 0;
+}
+.testDeNivel {
+    height: auto;
+}
+.testDeNivel input {
+    height: 60px;
+    border: none;
+    border-bottom: solid 1px grey;
+    border-radius: 0;
+}
+.botonEnviarTest {
+    height: 55px;
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+}
+.navbar-toggler {
+    border: 0;
+}
+
+
+
+
+
+
+/*
+
+   _____             .___.__        
+  /     \   ____   __| _/|__|____   
+ /  \ /  \_/ __ \ / __ | |  \__  \  
+/    Y    \  ___// /_/ | |  |/ __ \_
+\____|__  /\___  >____ | |__(____  /
+        \/     \/     \/         \/ 
+                           .__               
+  ________ __   ___________|__| ____   ______
+ / ____/  |  \_/ __ \_  __ \  |/ __ \ /  ___/
+< <_|  |  |  /\  ___/|  | \/  \  ___/ \___ \ 
+ \__   |____/  \___  >__|  |__|\___  >____  >
+    |__|           \/              \/     \/ 
+
+
+*/
+
+@media (min-width: 320px) {
+    .navbar-brand {
+        width: 70%;
+    }
+    .navbar-brand img {
+        height: auto;
+        width: 35%;
+    }
+    .examenes article p {
+        text-align: justify;
+        font-size: 1rem;
+    }
+    .testimonios {
+        border: 0;
+        margin-bottom: 50px;
+    }
+    .comentarios {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 375px) {}
+
+@media (min-width: 360px) {}
+
+@media (min-width: 768px) {
+    .navbar-brand {
+        width: 30%;
+    }
+    .navbar-brand img {
+        height: auto;
+        width: 35%;
+    }
+    .testimonios {
+        border-left: solid 10px white;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 414px) {}
+
+@media (min-width: 425px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1440px) {}
+
+@media (min-width: 2560px) {}
