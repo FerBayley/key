@@ -17,7 +17,6 @@ p {
     margin-bottom: 50px;
 }
 .verMas {
-    width: 100%;
     height: 55px;
     border-radius: 8px;
     border: 0;
@@ -29,6 +28,7 @@ p {
     -moz-transition: all 0.5s 0s ease;
     -o-transition: all 0.5s 0s ease;
     transition: all 0.5s 0s ease;
+    width: 100%;
 }
 .verMas:hover {
     background-color: #44AC03;
@@ -38,29 +38,25 @@ p {
     -o-transition: all 0.5s 0s ease;
     transition: all 0.5s 0s ease;
 }
+.cursosDestacados h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
 .cursosDestacados a {
     color: #0C2D4E;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
 }
 .cursosDestacados a:hover {
     color: grey;
 }
 
 .heroMetas {
-    margin-bottom: 70px;
-    background: url(../../assets/images/hero-metas.png) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 550px;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    background-color: #FAFAFA;
+    height: 400px;
+    margin-bottom: 100px;
+    margin-top: 250px;
 }
 .heroMetas h2 {
     margin-top: 80px;
@@ -335,6 +331,9 @@ p {
     border: none;
     border-bottom: solid 1px grey;
     border-radius: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
 }
 .btn-whatsapp {
     display: block;
@@ -364,6 +363,9 @@ p {
     border: none;
     border-bottom: solid 1px grey;
     border-radius: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
 }
 .botonEnviarTest {
     height: 55px;
@@ -374,11 +376,59 @@ p {
 .navbar-toggler {
     border: 0;
 }
-
-
-
-
-
+.espacio {
+    margin-bottom: 30px;
+}
+.chica {
+    margin-top: -310px;
+}
+.cardCurso {
+    height: 700px;
+    border-radius: 10px;
+    border: 0;
+}
+.radius img {
+    border-radius: 5px;
+}
+.cursoDestacado1 {
+    background-image: url('../images/curso1.png');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 15px;
+    border: solid 5px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cursoDestacado2 {
+    background-image: url('../images/curso2.png');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 15px;
+    border: solid 5px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cursoDestacado3 {
+    background-image: url('../images/curso3.png');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 15px;
+    border: solid 5px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.verMasInside {
+    width: 100%;
+}
 
 /*
 
@@ -417,6 +467,15 @@ p {
     .comentarios {
         padding: 10px;
     }
+    .quienesSomos article p {
+        text-align: justify;
+    }
+    .textoDescripcion h2 {
+        text-align: left;
+    }
+    .textoDescripcion p {
+        text-align: justify;
+    }
 }
 
 @media (min-width: 375px) {}
@@ -435,13 +494,42 @@ p {
         border-left: solid 10px white;
         margin-bottom: 50px;
     }
+    .textoDescripcion h2 {
+        text-align: center;
+    }
+    .textoDescripcion p {
+        text-align: center;
+    }
+    .testimonios img {
+        height: auto;
+        width: 70%;
+    }
 }
 
 @media (min-width: 414px) {}
 
 @media (min-width: 425px) {}
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+    .navbar-brand {
+        width: 18%;
+    }
+    .navbar-brand img {
+        height: auto;
+        width: 35%;
+    }
+    .textoDescripcion h2 {
+        text-align: center;
+    }
+    .textoDescripcion p {
+        text-align: center;
+    }
+    .testimonios img {
+        height: auto;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}
 
 @media (min-width: 1440px) {}
 
