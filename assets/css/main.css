@@ -14,6 +14,17 @@ p {
     margin-bottom: 30px;
 }
 .textoDescripcion {
+    margin-bottom: 10px;
+}
+.textoDescripcion h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #0C2D4E;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.textoDescripcion article p {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
     margin-bottom: 50px;
 }
 .verMas {
@@ -21,9 +32,9 @@ p {
     border-radius: 8px;
     border: 0;
     background-color: #62FF00;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     -webkit-transition: all 0.5s 0s ease;
     -moz-transition: all 0.5s 0s ease;
     -o-transition: all 0.5s 0s ease;
@@ -56,7 +67,7 @@ p {
     background-color: #FAFAFA;
     height: 400px;
     margin-bottom: 100px;
-    margin-top: 250px;
+    margin-top: 330px;
 }
 .heroMetas h2 {
     margin-top: 80px;
@@ -270,7 +281,7 @@ p {
 }
 .contenedorTitulo h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 23px;
+    font-size: 20px;
     margin: 0;
     padding: 0;
     color: #0C2D4E;
@@ -301,12 +312,12 @@ p {
     margin-bottom: 10px;
 }
 .quienesSomos h2 {
-    font-size: 23px;
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
     color: #0C2D4E;
 }
 .quienesSomos article p {
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Poppins', sans-serif;
 }
 .examenes {
@@ -389,47 +400,88 @@ p {
 }
 .radius img {
     border-radius: 5px;
+    margin-top: 20px;
 }
-.cursoDestacado1 {
-    background-image: url('../images/curso1.png');
-    height: 700px;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    border-radius: 15px;
-    border: solid 5px white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.cursosDestacados h2 {
+    font-size: 30px;
+    color: #0C2D4E;
 }
-.cursoDestacado2 {
-    background-image: url('../images/curso2.png');
-    height: 700px;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    border-radius: 15px;
-    border: solid 5px white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.cursoDestacado3 {
-    background-image: url('../images/curso3.png');
-    height: 700px;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    border-radius: 15px;
-    border: solid 5px white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.verMasInside {
+.btnCurso {
+    border: 0;
+    height: 50px;
     width: 100%;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #62FF00;
+    margin-top: 15px;
 }
-
+.btnCurso:hover {
+    background-color: #44AC03;
+    color: white;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+.consultar h2 {
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    color: #0C2D4E;
+}
+.tarifasPagina {
+    height: auto;
+}
+.tarifasPagina h2 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #0C2D4E;
+    font-weight: 700;
+}
+.btnPrecios {
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: 0;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #62FF00;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+.btnPrecios:hover {
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+    border: 0;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #44AC03;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+    color: white;
+    box-shadow: -2px 7px 25px 0px rgba(0,0,0,0.50);
+    -webkit-box-shadow: -2px 7px 25px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: -2px 7px 25px 0px rgba(0,0,0,0.50);
+}
+.precioHora {
+    font-weight: 700;
+}
+.colorCol {
+    background-color: whitesmoke;
+    height: auto;
+    padding: 100px 10px 100px 10px;
+    border-radius: 8px;
+}
 /*
 
    _____             .___.__        
